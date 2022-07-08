@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: fit-content;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.sih{
+    margin-left: 20px;
+}
+.container-1{
+    width: 88vw;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.becomes{
+    height: fit-content;
+    padding-top: 40px;
+}
+.get-enrolled{
+    font-size: 20px;
+}
+.bec{
+     padding: 120px 0 50px 0;
+}
+.bec p{
+    font-size: 20px;
+}
+
+.web-image{
+    width: 100%;
+    height: 100%;
+}
+.container-2{
+    width: 88vw;
+    margin: auto;
+    
+}
+
+.email{
+    width: 37vw;
+}
+.vitual-container{
+    display: flex;
+    width: 88vw;
+    margin: auto;
+}
+.vitual-container div:nth-child(2){
+    background-color: rgb(108,117,125);
+    margin: 50px 20px;
+}
+.vitual{
+    margin: 50px 0;
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+
+.third-a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+.all-a{
+    background-color: rgb(13,108,249);
+    text-decoration: none;
+    color: white;
+}
+.vitual a:hover{
+    color: white;
+    background-color: rgb(5, 5, 231);
+}
+.icon-1{
+    font-size: 40px;
+   
+}
+.vitual-container-2{
+    display: flex;
+    width: 85vw;
+    padding:90px 0;
+    margin: auto;
+}
+.vitual-2 h1:nth-child(1){
+    margin-bottom: 10px;
+}
+.vitual-2 h1:nth-child(1){
+    font-size: 35px;
+}
+    .vitual-2 p{
+        font-size: 20px;
+    }
+.vitual-container-2 img:nth-child(1){
+    width: 40vw;
+}
+.image-3{
+    width: 40vw;
+}
+.accordion{
+    height: fit-content;
+    width: 85vw;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.accordion-list li a{
+text-decoration: none;
+color: black;
+}
+.instructor-container{
+    height: fit-content;
+    width: 85vw;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.instructors{
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    gap: 2vw;
+    grid-template-rows: repeat(1, fit-content);
+}
+.instructor-p{
+    font-size: 3.3vmin;
+}
+.contact-p{
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgba(236, 232, 232, 0.889);
+    padding: 10px 0;
+
+}
+.contact-p p{
+    font-size: 3.5vmin;
+    margin: 0;
+}
+.copyright{
+    font-size: 3.5vmin;
+}
+
+
+
+
+
+@media (max-width:968px) {
+    .menu{
+        border: 0.3px solid rgb(198, 194, 194);
+        padding: 3px 10px;
+    }
+    .instructors{
+        display: block; 
+    }
+    .instruct{
+        margin-bottom: 10px;
+        font-size: larger;
+    }
+}
+@media (max-width:792px) {
+    .flex-button{
+        display: block;
+      }
+      .enter-button{
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:768px) {
+    .becomes{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .bec{
+        padding: 0 ;
+        margin-bottom: 40px;
+    }
+    .bec h1 {
+        font-size: 
+        5vmin;
+    }
+    .bec p{
+        font-size: 3vmin;
+    }
+    .web-image{
+        width: 50vw;
+    }
+    .get-enrolled{
+       font-size: 3vmin;
+    }
+    .sign-container{
+        padding: 5px 0!important;
+    }
+    .container-2{
+        flex-wrap: wrap;
+       align-items: center;
+        
+    }
+    .email{
+        width: 60vw;
+    }
+    .container-2 h1:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .vitual-container{
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .vitual{
+        margin: 10px 0;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    .vitual-container div:nth-child(2){
+      
+        margin: 10px 0;
+    }
+    .vitual-container-2{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .vitual-container-2 img{
+        margin-bottom: 20px;
+    }
+    .vitual-2{
+        text-align: center;
+    }
+.vitual-2 h1:nth-child(1){
+    font-size: 5vmin;
+}
+    .vitual-2 p{
+        font-size: 3vmin;
+    }
+    
+    
+    .vitual-container-2 img:nth-child(1){
+        margin: auto;
+        margin-bottom: 50px;
+        width: 70vw;
+    }
+    .image-3{
+        margin: auto;
+        margin-top: 50px;
+        width: 70vw;
+    }
+    
+    .instruct{
+        font-size: small;
+    }
+    
+}
+@media (max-width:420px) {
+    .sih{
+        margin-left: 0;
+    }
+}
+@media (max-width:328px) {
+  
+  .container-2 h1:nth-child(1){
+    margin-bottom: 0;
+}
+  .email{
+    width: 90vw;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+}
+@media (max-width:355px) {
+    .email{
+        width: 50vw;
+    }
+    .container-2 h1:nth-child(1){
+        font-size: 5vmin!important;
+      
+    }
+}
+@media (max-width:320px) {
+    .container-2 h1:nth-child(1){
+       margin-bottom: 5px;
+      
+    }
+}
